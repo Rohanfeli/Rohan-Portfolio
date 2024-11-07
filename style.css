@@ -1,0 +1,109 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f3f4f6;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+header p {
+    font-size: 1.3rem;
+    opacity: 0.9;
+}
+
+/* Section Styling */
+section {
+    max-width: 750px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #4a90e2;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 0.5rem;
+}
+
+/* Skills Section */
+#skills ul, #certifications ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+#skills li, #certifications li {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#skills li:hover, #certifications li:hover {
+    background-color: #357abd;
+}
+
+/* Projects Section */
+.project {
+    background-color: #fafafa;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #4a90e2;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.project h3 {
+    color: #4a90e2;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    color: #666;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #4a90e2;
+    font-weight: 500;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #4a90e2;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
